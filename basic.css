@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button create </title>
+    <style>
+        .subscribe-button,
+        .tweet-button,
+        .join-button {
+            background-color: #3388f0;
+            color: white;
+            border: 2px solid #f8f8b0;
+            height: 28px;
+            text-align: center;
+            justify-content: center;
+            font-size: smaller;
+            font-family: serif;
+            width: 70px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 15px;
+        }
+
+        .join-button {
+            background-color: blueviolet;
+            border: 2px solid crimson;
+            border-radius: 10px 0px 10px 0px;
+        }
+
+        .tweet-button {
+            background-color: brown;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="subscribe-button"> subscribe </button>
+        <button class="join-button"> JOIN</button>
+        <button class="Tweet-button"> Tweet</button>
+    </div>
+</body>
+
+</html>
